@@ -1,0 +1,91 @@
+body {
+  background-color: #030017;
+}
+
+.navbar-brand {
+  font-weight: 300;
+  font-family: "Arimo", sans-serif;
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+
+.jumbotron {
+  background-image: url("img/homeimg.jpg");
+  background-size: cover;
+  padding-top: 150px;
+  box-shadow: 0 3px rgba(255, 255, 255, 0.5);
+}
+
+.navbar-brand,
+.nav-link {
+  color: white;
+  text-shadow: 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  color: gray;
+}
+
+.about {
+  padding-top: 30px;
+  height: 600px;
+  box-shadow: 0 3px rgba(255, 255, 255, 0.5);
+}
+
+.gallery {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  height: auto;
+}
+
+.contact {
+  margin-top: 50px;
+  padding-top: 30px;
+  height: 600px;
+  border-top: 3px solid rgba(255, 255, 255, 0.5);
+}
+
+.contact h3 {
+  margin: 20px 0;
+}
+
+.footer {
+  background-color: darkgray;
+  height: 80px;
+  margin-top: 600px;
+}
+
+@media (min-width: 992px) {
+  .jumbotron {
+    margin-top: -75px;
+    padding-top: 200px;
+    height: 800px;
+  }
+  .jumbotron img {
+    height: 300px;
+  }
+}
+@media (max-width: 992px) {
+  .navbar::before {
+    background-image: url("img/homeimg.jpg");
+    background-color: 0.5;
+    background-size: cover;
+    border-bottom: 2px solid white;
+    box-shadow: 0 0 3px white 0.7;
+  }
+  .navbar {
+    background-color: black;
+    opacity: 0.7;
+    border-bottom: 1px solid red;
+  }
+  .jumbotron {
+    height: 600px;
+  }
+
+  .jumbotron img {
+    height: 250px;
+  }
+}
