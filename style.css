@@ -54,7 +54,7 @@ body {
 
 .footer {
   background-color: darkgray;
-  height: 80px;
+  height: 60px;
   margin-top: 600px;
 }
 
@@ -87,5 +87,21 @@ body {
 
   .jumbotron img {
     height: 250px;
+  }
+
+  .gall {
+    padding-left: 75px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .gall {
+    padding-left: 90px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .gall {
+    padding-left: 20px;
   }
 }
